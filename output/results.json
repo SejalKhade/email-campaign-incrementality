@@ -1,0 +1,135 @@
+{
+  "rows": 64000,
+  "arm_sizes": {
+    "Womens E-Mail": 21387,
+    "Mens E-Mail": 21307,
+    "No E-Mail": 21306
+  },
+  "srm_p_value": 0.9036929575604196,
+  "max_abs_smd": 0.008630731202832915,
+  "ate": [
+    {
+      "campaign": "Mens E-Mail",
+      "metric": "visit",
+      "treated": 0.18275684047496127,
+      "control": 0.10616727682343002,
+      "diff": 0.07658956365153125,
+      "rel_lift": 0.721404616781399,
+      "ci_low": 0.06995350121810838,
+      "ci_high": 0.08322562608495411,
+      "p_value": 5.685165482802317e-112,
+      "p_holm": 3.41109928968139e-111
+    },
+    {
+      "campaign": "Mens E-Mail",
+      "metric": "conversion",
+      "treated": 0.01253109306800582,
+      "control": 0.005726086548390125,
+      "diff": 0.006805006519615695,
+      "rel_lift": 1.188421876286328,
+      "ci_low": 0.005000171380452313,
+      "ci_high": 0.008609841658779076,
+      "p_value": 1.5232235005955427e-13,
+      "p_holm": 6.092894002382171e-13
+    },
+    {
+      "campaign": "Mens E-Mail",
+      "metric": "spend",
+      "treated": 1.422616511005773,
+      "control": 0.6527893551112361,
+      "diff": 0.7698271558945368,
+      "rel_lift": 1.1792887703620063,
+      "ci_low": 0.4851397325684076,
+      "ci_high": 1.0545145792206658,
+      "p_value": 1.163814968225482e-07,
+      "p_holm": 3.491444904676446e-07
+    },
+    {
+      "campaign": "Womens E-Mail",
+      "metric": "visit",
+      "treated": 0.151400383410483,
+      "control": 0.10616727682343002,
+      "diff": 0.045233106587052985,
+      "rel_lift": 0.4260550702669102,
+      "ci_low": 0.03889382581264261,
+      "ci_high": 0.05157238736146336,
+      "p_value": 3.1824031593349214e-44,
+      "p_holm": 1.5912015796674606e-43
+    },
+    {
+      "campaign": "Womens E-Mail",
+      "metric": "conversion",
+      "treated": 0.008837144059475383,
+      "control": 0.005726086548390125,
+      "diff": 0.003111057511085258,
+      "rel_lift": 0.5433130436982172,
+      "ci_low": 0.0014986778214022348,
+      "ci_high": 0.004723437200768281,
+      "p_value": 0.00015710512910668448,
+      "p_holm": 0.00031421025821336897
+    },
+    {
+      "campaign": "Womens E-Mail",
+      "metric": "spend",
+      "treated": 1.0772015710478329,
+      "control": 0.6527893551112361,
+      "diff": 0.4244122159365967,
+      "rel_lift": 0.6501518638646863,
+      "ci_low": 0.16895678988377877,
+      "ci_high": 0.6798676419894147,
+      "p_value": 0.0011293971023632475,
+      "p_holm": 0.0011293971023632475
+    }
+  ],
+  "cuped": {
+    "Mens E-Mail": {
+      "theta": 0.0012228965198244426,
+      "raw_se": 0.14524656024868676,
+      "cuped_se": 0.14521504219411457,
+      "variance_reduction": 0.00043394672972663084,
+      "raw_p": 1.163814968225482e-07,
+      "cuped_p": 1.265314467251961e-07,
+      "cuped_diff": 0.7674384994278021
+    },
+    "Womens E-Mail": {
+      "theta": 0.001034651293586205,
+      "raw_se": 0.13033285852919116,
+      "cuped_se": 0.13030821906506285,
+      "variance_reduction": 0.00037806483119418033,
+      "raw_p": 0.0011293971023632475,
+      "cuped_p": 0.0011802047342596457,
+      "cuped_diff": 0.42270092315649777
+    }
+  },
+  "economics": {
+    "Mens E-Mail": {
+      "incremental_visits_per_1000": 76.58956365153125,
+      "incremental_orders_per_1000": 6.805006519615695,
+      "incremental_revenue_per_1000": 769.8271558945368,
+      "break_even_cost_per_email": 0.7698271558945368
+    },
+    "Womens E-Mail": {
+      "incremental_visits_per_1000": 45.23310658705299,
+      "incremental_orders_per_1000": 3.111057511085258,
+      "incremental_revenue_per_1000": 424.41221593659674,
+      "break_even_cost_per_email": 0.4244122159365967
+    }
+  },
+  "targeting_rule": {
+    "lift_pp_womens_buyers": 7.311454855041033,
+    "lift_pp_non_buyers": 1.1078467244666392,
+    "interaction_p_value": 4.621757692140338e-15,
+    "share_of_list_womens_buyers": 0.5501005283583486,
+    "emails_saved_share": 0.44989947164165145,
+    "incremental_visits_retained_share": 0.8897412596277147
+  },
+  "uplift_model": {
+    "campaign": "Mens E-Mail",
+    "holdout_customers": 12784,
+    "holdout_total_incremental_visits": 489.0,
+    "share_captured_top_30pct": 0.32258991334528675,
+    "share_captured_top_50pct": 0.5530596985152267,
+    "random_targeting_top_30pct": 0.3,
+    "qini_area": 13.533413670956095
+  }
+}

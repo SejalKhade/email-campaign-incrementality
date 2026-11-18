@@ -1,0 +1,40 @@
+segment,dimension,dimension_value,customers,visits,conversions,revenue
+Mens E-Mail,channel,Multichannel,2577,545,44,4702.69
+Mens E-Mail,channel,Phone,9240,1504,100,11166.789999999999
+Mens E-Mail,channel,Web,9490,1845,123,14442.21
+Mens E-Mail,history_segment,1) $0 - $100,7724,1185,71,8150.18
+Mens E-Mail,history_segment,2) $100 - $200,4691,751,42,5287.43
+Mens E-Mail,history_segment,3) $200 - $350,4090,862,63,6010.1
+Mens E-Mail,history_segment,4) $350 - $500,2097,502,42,5408.599999999999
+Mens E-Mail,history_segment,5) $500 - $750,1597,333,22,2622.06
+Mens E-Mail,history_segment,"6) $750 - $1,000",644,139,16,1213.09
+Mens E-Mail,history_segment,"7) $1,000 +",464,122,11,1620.23
+Mens E-Mail,zip_code,Rural,3243,736,44,4937.91
+Mens E-Mail,zip_code,Surburban,9501,1647,118,13997.73
+Mens E-Mail,zip_code,Urban,8563,1511,105,11376.05
+No E-Mail,channel,Multichannel,2606,335,18,1604.6200000000001
+No E-Mail,channel,Phone,9327,813,50,6010.81
+No E-Mail,channel,Web,9373,1114,54,6292.9
+No E-Mail,history_segment,1) $0 - $100,7612,646,32,3934.59
+No E-Mail,history_segment,2) $100 - $200,4836,440,20,2045.12
+No E-Mail,history_segment,3) $200 - $350,4044,511,28,3772.57
+No E-Mail,history_segment,4) $350 - $500,2124,319,24,2145.81
+No E-Mail,history_segment,5) $500 - $750,1652,181,9,890.19
+No E-Mail,history_segment,"6) $750 - $1,000",622,96,3,217.41
+No E-Mail,history_segment,"7) $1,000 +",416,69,6,902.64
+No E-Mail,zip_code,Rural,3139,482,26,2408.04
+No E-Mail,zip_code,Surburban,9625,953,48,6443.38
+No E-Mail,zip_code,Urban,8542,827,48,5056.91
+Womens E-Mail,channel,Multichannel,2579,453,36,4573.28
+Womens E-Mail,channel,Phone,9454,1246,67,8290.460000000001
+Womens E-Mail,channel,Web,9354,1539,86,10174.37
+Womens E-Mail,history_segment,1) $0 - $100,7634,1005,61,8723.47
+Womens E-Mail,history_segment,2) $100 - $200,4727,631,37,4165.85
+Womens E-Mail,history_segment,3) $200 - $350,4155,675,26,2533.4700000000003
+Womens E-Mail,history_segment,4) $350 - $500,2188,417,20,1989.72
+Womens E-Mail,history_segment,5) $500 - $750,1662,292,26,3032.33
+Womens E-Mail,history_segment,"6) $750 - $1,000",593,124,8,591.6899999999999
+Womens E-Mail,history_segment,"7) $1,000 +",428,94,11,2001.58
+Womens E-Mail,zip_code,Rural,3181,581,37,4077.97
+Womens E-Mail,zip_code,Surburban,9650,1427,73,8169.82
+Womens E-Mail,zip_code,Urban,8556,1230,79,10790.32
