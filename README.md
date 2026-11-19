@@ -87,3 +87,27 @@ docs/LOOKER_STUDIO.md         how to build the dashboard
 ## Source
 
 Kevin Hillstrom, MineThatData E-Mail Analytics and Data Mining Challenge (March 2008). Copy obtained from a public GitHub mirror; SHA-256 of `data/hillstrom.csv`: `00a6a868e05a9ffe7382da51629f6d6dce88c5acfc945e79d314ebc78fd3a2c0`.
+
+## Infrastructure
+
+Data stored in **AWS S3** (`sejal-analytics-data` bucket) and queried with **Amazon Athena** (external table over `dashboard_extract.csv`).
+
+**Athena query run:**
+```sql
+SELECT segment, SUM(visits) as total_visits, ROUND(AVG(revenue), 2) as avg_revenue
+FROM dashboard_extract
+GROUP BY segment
+ORDER BY avg_revenue DESC;
+```
+
+**Results:**
+
+| segment | total_visits | avg_revenue |
+|---|---|---|
+| Mens E-Mail | 12,529 | $6,779.13 |
+| Womens E-Mail | 10,517 | $5,118.47 |
+| No E-Mail | 7,659 | $3,124.15 |
+
+Email-treated customers generated **2.2× the average revenue** of the holdout group. Full query results screenshot:
+
+![Athena query results](docs/athena_query_results.png)
