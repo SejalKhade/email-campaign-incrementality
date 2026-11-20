@@ -2,7 +2,7 @@
 
 An incrementality analysis of a real randomized email marketing test (64,000 customers). It measures how many site visits, orders and dollars each email campaign **caused** versus a no-email holdout, checks the randomization, finds which customers the campaigns work on, and turns that into a targeting rule.
 
-Built with **SQL (DuckDB)**, **Python** (pandas, SciPy, statsmodels, scikit-learn) and **R** (independent replication of the core tests). Produces a dashboard extract for **Looker Studio** or Tableau.
+Built with **SQL (DuckDB)**, **Python** (pandas, SciPy, statsmodels, scikit-learn) and **R** (independent replication of the core tests). Dashboard live in **[Looker Studio / Data Studio](https://datastudio.google.com/reporting/6153911e-814b-4850-9ded-90231a369f94)** — revenue by segment, total conversions, full data table.
 
 ## Data
 
